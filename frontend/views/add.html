@@ -1,0 +1,19 @@
+<form class="px-3">
+    <div class="d-flex flex-row align-items-center my-3">
+        <a href="#!/" class="btn btn-primary bg-gradient me-2"><</a>
+        <h2>Pizza hozzáadása</h2>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Pizza neve:</label>
+        <input type="text" ng-model="body.name" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Pizza leírása</label>
+        <textarea name="" ng-model="body.description" class="form-control"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Kalóriaszám</label>
+        <input type="number" ng-model="body.kcal" class="form-control" />
+    </div>
+    <button ng-click="add()" class="btn btn-success bg-gradient">Hozzáadás</button>
+</form>
